@@ -6,12 +6,18 @@
     <title>Document</title>
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
     <!-- Remember to link to your CSS file! -->
+    <!--link menu icons-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <!--link footer -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
     <nav>
         <ul>
             <li><a href="./index.html">Home</a></li>
-            <li><a href="./menu.html">Menu</a></li>
+            <li><a href="./menu.html" class="active-page">Menu</a></li>
             <li><a href="./about.html">About</a></li>
             <li><a href="./contact.html">Contact</a></li>
         </ul>
@@ -33,7 +39,7 @@
             <th>Price</th>
          </tr>
          <tr>
-            <td>Chicken Satay</td>
+            <td>Chicken Satay<i class="fa fa-star"></i></td>
             <td>$7.95 </td>
          </tr>
          <tr>
@@ -50,11 +56,17 @@
             <th>Price</th>
          </tr>
          <tr>
-            <td>Panang Curry</td>
+            <td>
+                Panang Curry
+                <i class="fa fa-star"></i>
+            </td>
             <td>$9.95</td>
          </tr>
          <tr>
-            <td>Red Curry</td>
+            <td>
+                Red Curry
+                <i class="fa fa-fire"></i>>
+            </td>
             <td>$9.95</td>
          </tr>
          <tr>
@@ -62,11 +74,17 @@
             <td>$8.95</td>
          </tr>
          <tr>
-            <td>Tom Ka Soup</td>
+            <td>
+                Tom Ka Soup
+                <i class="fa fa-fire"></i>>
+            </td>
             <td>$8.95</td>
          </tr>
          <tr>
-            <td>Tom Yum Soup</td>
+            <td>
+                Tom Yum Soup
+                <i class="fa fa-fire"></i>>
+            </td>
             <td>$8.95</td>
          </tr>    
     </table>
@@ -83,7 +101,10 @@
             <td>$10.95 </td>
          </tr>
          <tr>
-            <td>Pad See Ew</td>
+            <td>
+                Pad See Ew
+                <i class="fa fa-star"></i>
+            </td>
             <td>$10.49</td>
          </tr>
          <tr>
@@ -150,8 +171,46 @@
             <td>$2.99 </td>
          </tr>
     </table>
-
  </main>
+ <hr>
+ <!--footer-->
+ <div class="footer-clean">
+    <footer>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-sm-4 col-md-3 item">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="#">Web design</a></li>
+                        <li><a href="#">Development</a></li>
+                        <li><a href="#">Hosting</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-4 col-md-3 item">
+                    <h3>About</h3>
+                    <ul>
+                        <li><a href="#">Company</a></li>
+                        <li><a href="#">Team</a></li>
+                        <li><a href="#">Legacy</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-4 col-md-3 item">
+                    <h3>Careers</h3>
+                    <ul>
+                        <li><a href="#">Job openings</a></li>
+                        <li><a href="#">Employee success</a></li>
+                        <li><a href="#">Benefits</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a>
+                    <p class="copyright">Company Name © 2018</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
     
 </body>
 </html>
